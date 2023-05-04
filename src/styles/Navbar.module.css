@@ -1,0 +1,160 @@
+.container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer {
+  margin-left: 10%;
+  position: relative;
+  height: 76px;
+  width: 76px;
+}
+
+.linksContainer {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #050724;
+  padding: 5px 20px;
+  border-radius: 20px;
+  transition: 0.3s all ease;
+}
+
+.link:hover {
+  background-color: #ffc0c0;
+}
+
+.right {
+  height: 100%;
+  flex: 1.5;
+  background-color: rgb(233, 18, 18);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+}
+
+.languageContainer {
+  z-index: 9;
+  position: relative;
+  margin-right: 10%;
+  cursor: pointer;
+}
+
+.languageContainer span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: bold;
+}
+
+.select {
+  padding: 5px 0;
+  z-index: 9;
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.64);
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.64);
+  overflow: hidden;
+}
+
+.select a {
+  color: rgb(233, 18, 18);
+  padding: 3px 10px;
+  font-weight: bold;
+}
+
+.mobileMenuContainer {
+  z-index: 9;
+  margin-right: 10%;
+  display: none;
+}
+
+.select a:hover {
+  background-color: rgb(233, 18, 18);
+  color: white;
+}
+
+.rightMobileWrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  z-index: 9;
+}
+
+.rightMobile {
+  position: relative;
+  height: 100%;
+  width: 350px;
+  font-size: 22px;
+  background-color: rgb(233, 18, 18);
+}
+
+.rightMobileMenu {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.linkMobile {
+  margin-left: 25px;
+  padding: 15px 0;
+  color: white;
+}
+
+.rightMobileMenu hr {
+  width: 100%;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 30px;
+  right: 35px;
+  color: white;
+}
+
+@media (max-width: 1224px) {
+  .linksContainer {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .linksContainer {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 860px) {
+  .linksContainer {
+    display: none;
+  }
+
+  .mobileMenuContainer {
+    display: block;
+  }
+}

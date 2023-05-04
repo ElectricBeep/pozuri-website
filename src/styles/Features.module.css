@@ -1,0 +1,60 @@
+.container {
+  background-color: rgb(233, 18, 18);
+  color: white;
+}
+
+.content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  border: 5px solid white;
+  border-radius: 20px;
+  height: max-content;
+  width: 400px;
+  padding: 15px 25px;
+  margin: 100px 0;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 100%;
+}
+
+.image {
+  height: 100%;
+}
+
+.card h2 {
+  margin-top: 20px;
+}
+
+.card p {
+  margin-top: 10px;
+}
+
+@media (max-width: 1400px) {
+  .content {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 822px) {
+  .content {
+    padding: 26px 0;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90%;
+    margin: 0;
+  }
+}
