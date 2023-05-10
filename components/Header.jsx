@@ -45,10 +45,10 @@ const Header = ({ t }) => {
             variants={slideIn("left", "spring", 0.5, 1)}
           >
             <div className={styles.button}>
-              <Image src="/images/googleBadgee.png" fill />
+              <Image src="/images/googleBadgee.png" fill alt="button" />
             </div>
             <div className={styles.button}>
-              <Image src="/images/appleBadgee.png" fill />
+              <Image src="/images/appleBadgee.png" fill alt="button" />
             </div>
           </motion.div>
           <motion.p

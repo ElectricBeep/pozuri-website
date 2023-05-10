@@ -17,7 +17,7 @@ const Navbar = ({ t }) => {
     <nav className={styles.container}>
       <div className={styles.left}>
         <div className={styles.logoContainer}>
-          <Image src="/images/logo.png" fill />
+          <Image src="/images/logo.png" fill priority alt="logo" />
         </div>
         <div className={styles.linksContainer}>
           <Link href="#header" className={styles.link}>
@@ -28,6 +28,9 @@ const Navbar = ({ t }) => {
           </Link>
           <Link href="#about" className={styles.link}>
             {t("about")}
+          </Link>
+          <Link href="#partner" className={styles.link}>
+            {t("partner")}
           </Link>
         </div>
       </div>
@@ -73,6 +76,10 @@ const Navbar = ({ t }) => {
               <hr />
               <Link href="#about" className={styles.linkMobile} onClick={() => setIsActive(false)}>
                 {t("about")}
+              </Link>
+              <hr />
+              <Link href="#partner" className={styles.linkMobile} onClick={() => setIsActive(false)}>
+                {t("partner")}
               </Link>
               <hr />
             </div>

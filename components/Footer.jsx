@@ -9,7 +9,7 @@ const Footer = ({ t }) => {
       <div className={styles.content}>
         <div>
           <div className={styles.logoConatiner}>
-            <Image src="/images/logoWhite.png" fill />
+            <Image src="/images/logoWhite.png" fill alt="logo" />
           </div>
           <p className={styles.copyright}>
             Požuri&copy; {new Date().getFullYear()}

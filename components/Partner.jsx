@@ -1,8 +1,10 @@
 import React, { useRef, useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import emailjs from '@emailjs/browser';
+import { motion } from "framer-motion";
 
 import styles from "@/styles/Partner.module.css";
+import { slideIn, staggerContainer } from "../utils/motion";
 
 const Partner = ({ t }) => {
   const [active, setActive] = useState(false);
@@ -50,24 +52,45 @@ const Partner = ({ t }) => {
   };
 
   return (
-    <div className={styles.container} id="business">
+    <div className={styles.container} id="partner">
       <div className={styles.shape} />
       <div className={styles.content}>
-        <div className={styles.left}>
+        <motion.div
+          className={styles.left}
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amoung: 0.25 }}
+        >
           <div>
-            <h1 className={styles.title}>
+            <motion.h1
+              className={styles.title}
+              variants={slideIn("left", "spring", 0.3, 1)}
+            >
               {t("partnerTitle")}
-            </h1>
-            <p className={styles.textFirst}>
+            </motion.h1>
+            <motion.p
+              className={styles.textFirst}
+              variants={slideIn("left", "spring", 0.35, 1)}
+            >
               {t("partnerTextOne")}
-            </p>
-            <p className={styles.textSecond}>
+            </motion.p>
+            <motion.p
+              className={styles.textSecond}
+              variants={slideIn("left", "spring", 0.4, 1)}
+            >
               {t("partnerTextTwo")}
-            </p>
-            <p className={styles.textThird}>
+            </motion.p>
+            <motion.p
+              className={styles.textThird}
+              variants={slideIn("left", "spring", 0.45, 1)}
+            >
               {t("partnerTextThree")}
-            </p>
-            <div className={styles.center}>
+            </motion.p>
+            <motion.div
+              className={styles.center}
+              variants={slideIn("left", "spring", 0.5, 1)}
+            >
               <button className={styles.btn} onClick={() => setActive(true)}>
                 <svg width="180px" height="60px" viewBox="0 0 180 60" className={styles.border}>
                   <polyline points="179,1 179,59 1,59 1,1 179,1" />
@@ -75,12 +98,18 @@ const Partner = ({ t }) => {
                 </svg>
                 <span>{t("partnerButtonText")}</span>
               </button>
-            </div>
+            </motion.div>
           </div>
-        </div>
-        <div className={styles.right}>
-          <img src="/images/hands2.jpg" alt="handshake" className={styles.image} />
-        </div>
+        </motion.div>
+        <motion.div
+          className={styles.right}
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amoung: 0.25 }}
+        >
+          <motion.img src="/images/hands2.jpg" alt="handshake" className={styles.image} variants={slideIn("right", "spring", 0.3, 1)} />
+        </motion.div>
       </div>
       {active && (
         <div className={styles.contactContainer} onClick={() => setActive(false)}>
