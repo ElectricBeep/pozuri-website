@@ -112,8 +112,19 @@ const Partner = ({ t }) => {
         </motion.div>
       </div>
       {active && (
-        <div className={styles.contactContainer} onClick={() => setActive(false)}>
-          <div className={styles.contactFromContainer} onClick={(e) => e.stopPropagation()}>
+        <motion.div
+          className={styles.contactContainer}
+          onClick={() => setActive(false)}
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amoung: 0.25 }}
+        >
+          <motion.div
+            className={styles.contactFromContainer}
+            onClick={(e) => e.stopPropagation()}
+            variants={slideIn("down", "spring", 0.3, 1)}
+          >
             <form ref={formRef} onSubmit={handleSubmit}>
               <h2>
                 {t("formTitle")}
@@ -159,8 +170,8 @@ const Partner = ({ t }) => {
               )}
             </form>
             <AiOutlineClose size={20} className={styles.closeIcon} onClick={() => setActive(false)} />
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       )}
       <div className={styles.circleOne} />
       <div className={styles.circleTwo} />
