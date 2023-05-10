@@ -18,5 +18,18 @@
   "aboutTitle2": "Šta je cilj aplikacije Požuri?",
   "aboutText2": "Naša mobilna aplikacija je dizajnirana da bude intuitivna i jednostavna za upotrebu te da vam olakša donošenje pametnih odluka prilikom kupovanja. Razvili smo je sa fokusom na održivost i smanjenje otpada. Zahvaljujući našoj inovativnoj tehnologiji, po izvanrednim popustima možete kupiti proizvode koji se približava datumu isteka roka trajanja, a inače bi bili uništeni, pridonoseći zadađenju okoline. Iskorištavanjem ovih ponuda, možete uštedjeti novac bez žrtvovanja kvalitete ili praktičnosti, dok pomažete u smanjenju otpada i minimiziranju oštećenja okoline.",
   "footerTitle": "POČNI ŠTEDJETI DANAS",
-  "contactUs": "Kontaktirajte nas"
+  "contactUs": "Kontaktirajte nas",
+  "partnerTitle": "Postanite naš Partner",
+  "partnerButtonText": "Postani Partner",
+  "partnerTextOne": "Da li ste trgovina koja želi smanjiti otpad, a istovremeno povećava dobit? Ne tražite dalje od naše inovativne mobilne aplikacije! Aplikacija pomaže poslovnim subjektima da prodaju proizvode koji se približavaju isteku roka trajanja po sniženoj cijeni, smanjujući otpad i omogućavajući kupcima uštedu.",
+  "partnerTextTwo": "Sklapajući partnerstvo sa nama, Vaša trgovina može smanjiti negativni ekološki utjecaj te istovremeno privući kupce zainteresovane za ekološku kupovinu.",
+  "partnerTextThree": "Pridružite nam se u borbi protiv otpada i postanite naš partner danas!",
+  "formTitle": "Popunite Formu",
+  "labelOne": "Ime Kompanije / Trgovine",
+  "labelTwo": "Adresa Kompanije / Trgovine",
+  "labelFour": "Telefon",
+  "labelFive": "Poruka",
+  "messageSuccess": "Poruka poslana uspješno!",
+  "messageError": "Poruka nije poslana. Molimo pokušajte ponovo.",
+  "submitButtonText": "Pošalji"
 }

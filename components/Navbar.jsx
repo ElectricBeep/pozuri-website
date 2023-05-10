@@ -4,9 +4,9 @@ import Image from "next/image";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
+import { useRouter } from "next/router";
 
 import styles from "@/styles/Navbar.module.css";
-import { useRouter } from "next/router";
 
 const Navbar = ({ t }) => {
   const router = useRouter();

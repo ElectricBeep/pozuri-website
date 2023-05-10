@@ -1,6 +1,7 @@
 .container {
   height: calc(100vh - 100px);
   display: flex;
+  min-height: 600px;
 }
 
 .left {
@@ -110,6 +111,7 @@
   position: absolute;
   height: 75%;
   left: 52%;
+  min-height: 500px;
 }
 
 .rightImage2 {
@@ -117,6 +119,7 @@
   height: 75%;
   right: 5%;
   bottom: 8%;
+  min-height: 500px;
 }
 
 @media (max-width: 1850px) {

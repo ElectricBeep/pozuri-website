@@ -18,5 +18,18 @@
   "aboutTitle2": "What is Požuri About?",
   "aboutText2": "Our mobile app is designed to be user-friendly and intuitive, providing you with a seamless experience that helps you make smart purchasing decisions while also contributing to the environment. We've built our app with a focus on sustainability and waste reduction. With our innovative technology, you can discover amazing deals on products that are nearing their expiration dates, which would otherwise be discarded, contributing to environmental damage. By leveraging these deals, you can save money without compromising quality or convenience, all while helping to reduce waste and minimize environmental damage.",
   "footerTitle": "START SAVING TODAY",
-  "contactUs": "Contact Us"
+  "contactUs": "Contact Us",
+  "partnerTitle": "Become our Partner",
+  "partnerButtonText": "Become Partner",
+  "partnerTextOne": "Are you a store looking to reduce food waste while increasing profits? Look no further than our innovative mobile app! Our app helps businesses sell products that are nearing their expiration date at a discounted price, reducing waste while providing value to customers.",
+  "partnerTextTwo": "By partnering with us, your store can reduce the environmental impact while attracting new customers who are interested in eco-friendly shopping.",
+  "partnerTextThree": "Join us in the fight against food waste and become a partner today!",
+  "formTitle": "Please Fill the Form",
+  "labelOne": "Company / Business unit name",
+  "labelTwo": "Company / Business unit address",
+  "labelFour": "Phone",
+  "labelFive": "Message",
+  "messageSuccess": "Message sent successfully!",
+  "messageError": "Something went wrong. Please try again.",
+  "submitButtonText": "Submit"
 }
