@@ -20,7 +20,7 @@
 .linksContainer {
   display: flex;
   align-items: center;
-  gap: 100px;
+  gap: 40px;
   margin-left: auto;
   margin-right: auto;
 }

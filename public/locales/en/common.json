@@ -3,6 +3,7 @@
   "features": "Features",
   "about": "About",
   "partner": "Partnership",
+  "faq": "FAQ",
   "header1": "Act Fast and Save Big",
   "header2": "Snag Incredible Discounts",
   "header3": "On You Favorite Products Now!",
@@ -32,5 +33,17 @@
   "labelFive": "Message",
   "messageSuccess": "Message sent successfully!",
   "messageError": "Something went wrong. Please try again.",
-  "submitButtonText": "Submit"
+  "submitButtonText": "Submit",
+  "faqHeader": "Frequently Asked Question",
+  "faqDesc": "Below you'll find answers to the questions we get asked the most.",
+  "faqQOne": "Is Požuri app free to use?",
+  "faqAOne": "Yes, the app is completely free to download and use. There are no charges associated with downloading or using the app.",
+  "faqQTwo": "How does the process of ordering products work?",
+  "faqATwo": "When you place an order through the app, the business unit's staff will begin preparing your order. Once your order is ready to be picked up, you will receive a notification on your phone informing you that it's ready. All you have to do then is head to the business unit you ordered from and pick up your order.",
+  "faqQThree": "What do I need to pick up my order?",
+  "faqAThree": "All you need is your order number. When you place an order, you will be provided with an order number. When you come to pick up your order, the staff at the business unit will ask for your order number, so please remember to bring it with you.",
+  "faqQFour": "After I place my order, when can I come to pick it up?",
+  "faqAFour": "That depends on the business unit from which you ordered, but your order should be ready within a few hours at most.",
+  "faqQFive": "After my order is ready, how much time do I have to pick it up?",
+  "faqAFive": "After you receive the notification that your order is ready, you will have 24 hours to pick it up. Since we are working with products that are nearing their expiration dates, it's important that products are picked up on time. If you fail to pick up your order on time, the order will be canceled, and you will not be charged."
 }

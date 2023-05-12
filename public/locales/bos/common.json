@@ -3,6 +3,7 @@
   "features": "Karakteristike",
   "about": "O Nama",
   "partner": "Partnerstvo",
+  "faq": "Pitanja",
   "header1": "Požuri i Uštedi",
   "header2": "Zgrabi Nevjerovatne Popuste",
   "header3": "Na Svoje Omiljene Proizvode!",
@@ -32,5 +33,17 @@
   "labelFive": "Poruka",
   "messageSuccess": "Poruka poslana uspješno!",
   "messageError": "Poruka nije poslana. Molimo pokušajte ponovo.",
-  "submitButtonText": "Pošalji"
+  "submitButtonText": "Pošalji",
+  "faqHeader": "Najčešća Pitanja",
+  "faqDesc": "Ispod možete pogledati odgovore na pitanja koja najčešće dobivamo.",
+  "faqQOne": "Da li je aplikacija Požuri besplatna za korištenje?",
+  "faqAOne": "Da, aplikacije je besplatna. Preuzimanje i korištenje aplikacije je potpuno besplatno.",
+  "faqQTwo": "Kako funkcijoniše proces naručivanja proizvoda?",
+  "faqATwo": "Kada započnete narudžbu preko aplikacije, uposlenici trgovine će početi sa pripremom proizvoda. Kada narudžba bude spremna za preuzimanje, bićete obaviješteni putem notifikacije na vašem telefonu. Nakon toga, sve što trebate uraditi je zaputiti se u trgovinu iz koje ste naručili i preuzeti vašu narudžbu.",
+  "faqQThree": "Šta mi je potrebno da bi preuzeo narudžbu?",
+  "faqAThree": "Sve što vam je potrebno je broj vaše narudžbe. Prilikom kreiranja narudžbe, dobićete i broj narudžbe, a kada dođete da preuzmete vaše produkte, uposlenici trgovine će tražiti taj broj.",
+  "faqQFour": "Nakon što započnem narudžbu, kada je mogu preuzeti?",
+  "faqAFour": "To ovisi o trgovini iz koje ste naručili, ali vaša narudžba bi trebala biti spremna u roku od nekoliko sati, najduže.",
+  "faqQFive": "Nakon što je moja narudžba spremna, koliko vremena imam da je preuzmem?",
+  "faqAFive": "Nakon što primite obavijest da je vaša narudžba spremna, imate 24 sata da je preuzmete. Budući da radimo s proizvodima kojima se bliži datum isteka roka trajanja, važno je da se narudžbe preuzmu na vrijeme. Ako je ne uspijete preuzeti na vrijeme, ona će biti otkazana, a novac će vam biti vraćen."
 }

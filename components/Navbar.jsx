@@ -32,6 +32,9 @@ const Navbar = ({ t }) => {
           <Link href="#partner" className={styles.link}>
             {t("partner")}
           </Link>
+          <Link href="#faq" className={styles.link}>
+            {t("faq")}
+          </Link>
         </div>
       </div>
       <div className={styles.right}>
@@ -80,6 +83,10 @@ const Navbar = ({ t }) => {
               <hr />
               <Link href="#partner" className={styles.linkMobile} onClick={() => setIsActive(false)}>
                 {t("partner")}
+              </Link>
+              <hr />
+              <Link href="#faq" className={styles.linkMobile} onClick={() => setIsActive(false)}>
+                {t("faq")}
               </Link>
               <hr />
             </div>
