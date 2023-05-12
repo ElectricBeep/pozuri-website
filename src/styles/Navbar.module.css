@@ -137,19 +137,25 @@
   color: white;
 }
 
-@media (max-width: 1224px) {
+@media (max-width: 1600px) {
   .linksContainer {
-    gap: 40px;
+    gap: 30px;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1460px) {
   .linksContainer {
     gap: 20px;
   }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1360px) {
+  .linksContainer {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1280px) {
   .linksContainer {
     display: none;
   }
