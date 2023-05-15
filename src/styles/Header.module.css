@@ -380,6 +380,10 @@
     height: max-content;
   }
 
+  .headerFirst {
+    font-size: 46px;
+  }
+
   .rightImage2 {
     display: none;
   }
