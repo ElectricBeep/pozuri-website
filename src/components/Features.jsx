@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import styles from "@/styles/Features.module.css";
-import { slideIn, staggerContainer } from "../../utils/motion";
+import { slideIn, staggerContainer } from "../utils/motion";
 
 const Features = ({ t }) => {
   return (

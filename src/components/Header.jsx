@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import styles from "@/styles/Header.module.css";
 import Image from "next/image";
-import { slideIn, staggerContainer } from "../../utils/motion";
+import { slideIn, staggerContainer } from "../utils/motion";
 
 const Header = ({ t }) => {
   return (

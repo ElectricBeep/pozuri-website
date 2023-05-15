@@ -3,7 +3,7 @@ import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 import { motion } from "framer-motion";
 
 import styles from "@/styles/FAQ.module.css";
-import { slideIn, staggerContainer } from "../../utils/motion";
+import { slideIn, staggerContainer } from "../utils/motion";
 
 const FAQ = ({ t }) => {
   const [selected, setSelected] = useState(null);
