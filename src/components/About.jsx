@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import styles from "@/styles/About.module.css";
-import { slideIn, staggerContainer } from "../utils/motion";
+import { slideIn, staggerContainer } from "../../utils/motion";
 
 const About = ({ t }) => {
   return (

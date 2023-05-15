@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { motion } from "framer-motion";
 
 import styles from "@/styles/Partner.module.css";
-import { slideIn, staggerContainer } from "../utils/motion";
+import { slideIn, staggerContainer } from "../../utils/motion";
 
 const Partner = ({ t }) => {
   const [active, setActive] = useState(false);

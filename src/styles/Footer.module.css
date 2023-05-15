@@ -41,6 +41,12 @@
   margin-bottom: 10px;
 }
 
+@media (max-width: 1700px) {
+  .title {
+    font-size: 70px;
+  }
+}
+
 @media (max-width: 1450px) {
   .title {
     font-size: 60px;

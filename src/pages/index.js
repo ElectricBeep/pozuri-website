@@ -4,13 +4,13 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 
 import styles from "@/styles/Home.module.css";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
-import About from "../../components/About";
-import Features from "../../components/Features";
-import Partner from "../../components/Partner";
-import FAQ from "../../components/FAQ";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import About from "../components/About";
+import Features from "../components/Features";
+import Partner from "../components/Partner";
+import FAQ from "../components/FAQ";
 
 const inter = Inter({ subsets: ["latin"] });
 
