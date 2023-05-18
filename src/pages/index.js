@@ -28,10 +28,27 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Požuri</title>
-        <meta name="description" content="Požuri mobile app" />
+        <title>Požuri Mobile App</title>
+        <meta name="description" content="Požuri is a mobile application designed to assist you in saving money while also promoting environmental sustainability." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/redLogoNoBg.png" />
+        <link rel="apple-touch-icon" href="/images/redLogoNoBg.png" />
+        <meta property="og:title" content="Požuri Mobile App" />
+        <meta property="og:description" content="Požuri is a mobile application designed to assist you in saving money while also promoting environmental sustainability." />
+        <meta property="og:image" content="/images/redLogoNoBg.png" />
+        <script
+          key="structured-data"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ShoppingApplication",
+              name: "Požuri",
+              operatingSystem: "ANDROID",
+              applicationCategory: "GameApplication",
+            })
+          }}
+        />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <Navbar t={t} />
