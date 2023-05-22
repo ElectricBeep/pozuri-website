@@ -11,6 +11,7 @@ import About from "../components/About";
 import Features from "../components/Features";
 import Partner from "../components/Partner";
 import FAQ from "../components/FAQ";
+import HowItWorks from "@/components/HowItWorks";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -56,6 +57,7 @@ export default function Home() {
         <Features t={t} />
         <About t={t} />
         <Partner t={t} />
+        <HowItWorks t={t} />
         <FAQ t={t} />
         <Footer t={t} />
       </main>
