@@ -101,7 +101,7 @@ const HowItWorks = ({ t }) => {
               <div className={index === current ? styles.slideActive : styles.slide} key={text.id}>
                 {index === current && (
                   <div className={styles.textContainer}>
-                    <h3 className={styles.heading}>{text.title}</h3>
+                    <h2 className={styles.heading}>{text.title}</h2>
                     <p className={styles.text}>{text.text}</p>
                   </div>
                 )}
