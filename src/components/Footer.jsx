@@ -12,7 +12,7 @@ const Footer = ({ t }) => {
             <Image src="/images/logoWhite.png" fill alt="logo" />
           </div>
           <p className={styles.copyright}>
-            Požuri&copy; {new Date().getFullYear()}
+            Požuri&copy; {new Date().getFullYear()} {t("footerRights")}
           </p>
         </div>
         <div>
