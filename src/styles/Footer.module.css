@@ -22,7 +22,7 @@
 
 .copyright {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .title {
@@ -49,19 +49,19 @@
 
 @media (max-width: 1450px) {
   .title {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 
 @media (max-width: 1180px) {
   .title {
-    font-size: 46px;
+    font-size: 36px;
   }
 }
 
 @media (max-width: 978px) {
   .title {
-    font-size: 36px;
+    display: none;
   }
 
   .contactsContainer {
@@ -69,13 +69,7 @@
   }
 }
 
-@media (max-width: 822px) {
-  .title {
-    display: none;
-  }
-}
-
-@media (max-width: 420px) {
+@media (max-width: 460px) {
   .container {
     height: max-content;
   }
@@ -91,6 +85,6 @@
   }
 
   .logoConatiner {
-    margin: 20px 0;
+    margin: 20px auto;
   }
 }
